@@ -3,27 +3,48 @@ Brief Decription
 
 ---
 
-## 🔍 Project Overview (P-202YMMDD_Name)
+## 🔍 Project Overview (P-20250904_Online_Store)
 
-Project Overview
+The goal is to explore how data-driven decision making can increase the revenue of a large online store by:
 
-Key questions:
+- Prioritizing business hypotheses using the ICE and RICE frameworks.
+- Running and analyzing an A/B test to evaluate the impact of these hypotheses on key metrics such as revenue, average order value, and conversion rate.
 
-- Objectives to reach
+The project is divided into two parts:
+
+- Hypothesis Prioritization – Ranking business ideas based on potential impact, reach, confidence, and required effort.
+- A/B Test Analysis – Evaluating statistical significance, identifying anomalies, and drawing actionable business conclusions.
 
 Project Info explanation
 
-__Note__: key info
+__Note__: Make a decision based on the test results. Possible decisions are:   
+1. Stop the test and consider one of the groups the leader.   
+2. Stop the test and conclude that there is no difference between the groups. 3. Continue the test.   
 
 ---
 
 ## 🧮 Data Dictionary
 
-This project has N different tables.
+This project has 3 different datasets.
 
-- `dataset.csv` (describe content)
-    `column:name`: description.
+- `hypotheses_us.csv` (Hypotheses metrics)
+    `Hypotheses`: Brief descriptions of the hypotheses.
+    `Reach`: User reach, on a scale of one to ten.
+    `Impact`: Impact on users, on a scale of one to ten.
+    `Confidence`: Confidence in the hypothesis, on a scale of one to ten.
+    `Effort`: The resources required to test a hypothesis, on a scale of one to ten. The higher the Effort value, the more resources the test requires.
 
+- `orders_us.csv` (Orders data)
+    `transactionId`: Order ID.
+    `visitorId`: ID of the user who placed the order.
+    `date`: Date of the order.
+    `revenue`: Revenue from the order.
+    `group`: The A/B test group to which the user belongs.
+
+- `visits_us.csv` (Visits data)
+    `date`: The date.
+    `group`: A/B test group.
+    `visits`: The number of visits on the specified date in the specified A/B test group.
 
 ---
 
