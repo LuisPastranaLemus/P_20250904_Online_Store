@@ -50,7 +50,9 @@ try:
                       plot_qq_normality_tests,
                       plot_horizontal_boxplot)
     
-    from .features import(cast_datatypes)
+    from .features import(cast_datatypes,
+                          ice_prioritization,
+                          wsjf_prioritization)
 
     from .utils import (format_notebook)
 
@@ -107,5 +109,7 @@ __all__ = ['load_dataset_from_zip',
            'plot_horizontal_boxplot',
            
            'cast_datatypes',
+           'ice_prioritization',
+           'wsjf_prioritization',
 
            'format_notebook']

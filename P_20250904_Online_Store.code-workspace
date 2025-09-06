@@ -21,7 +21,7 @@
 				"name": "Oracle23ai",
 				"database": "FREEPDB1",
 				"username": "LUIS",
-				"password": "P45tr4n4L3mu5"
+				"password": ""
 			},
 			{
 				"previewLimit": 50,
@@ -31,7 +31,7 @@
 				"name": "Postgre",
 				"database": "dataAnalysis",
 				"username": "luis",
-				"password": "P45tr4n4L3mu5"
+				"password": ""
 			},
 			{
 				"oracleOptions": {
@@ -48,7 +48,7 @@
 				"name": "Oracle23ai_docker",
 				"database": "FREEPDB1",
 				"username": "LUIS",
-				"password": "P45tr4n4L3mu5"
+				"password": ""
 			},
 			{
 				"previewLimit": 50,
@@ -58,7 +58,7 @@
 				"name": "Postgre_Suse",
 				"database": "dataanalysis",
 				"username": "luis",
-				"password": "dataanalysis"
+				"password": ""
 			}
 		]
 	}
